@@ -113,7 +113,7 @@ ETag: "53762af0-12e1"
 Accept-Ranges: bytes
 ````
 ### В заключении Default Router:
-
+````
 san4ez@edukation:~/IPTABLES$ vagrant ssh inetRouter2
 [vagrant@inetRouter2 ~]$ traceroute otus.ru
 traceroute to otus.ru (104.26.5.108), 30 hops max, 60 byte packets
@@ -122,3 +122,4 @@ traceroute to otus.ru (104.26.5.108), 30 hops max, 60 byte packets
  3  * * *
  4  104.26.5.108 (104.26.5.108)  106.970 ms  104.751 ms  109.768 ms
 
+````
